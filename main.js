@@ -269,11 +269,11 @@ const cargar_carrusel = (posicion) => {
         console.log(elemento.scrollHeight)
         console.log(elemento.clientHeight)
         if (elemento.scrollHeight > elemento.clientHeight) {
-            mostrarLeerMas(true)
         }
+        mostrarLeerMas(true)
 
-        casos_exito_contenido_leer_id.innerText = truncarTexto(elemento.innerText, 80)
-        casos_exito_contenido_leer_desktop_id.innerText = truncarTexto(elemento.innerText, 80)
+        casos_exito_contenido_leer_id.innerText = truncarTexto(elemento.innerText, 70)
+        casos_exito_contenido_leer_desktop_id.innerText = truncarTexto(elemento.innerText, 70)
 
 
     })
